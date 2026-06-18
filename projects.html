@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | John Doe Portfolio</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="View the portfolio projects of John Doe, showcasing skills in semantic HTML, CSS, and accessible web development.">
+    <meta name="keywords" content="John Doe Projects, Web Development Portfolio, Accessible Websites, HTML5 Projects">
+    <meta name="author" content="John Doe">
+    <link rel="canonical" href="https://vedant-211.github.io/HTML5-Semantic-Structure-Accessibility/projects.html">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="John Doe's Projects">
+    <meta property="og:description" content="Explore a collection of accessible, responsive, and semantic web projects built by John Doe.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vedant-211.github.io/HTML5-Semantic-Structure-Accessibility/projects.html">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo" aria-label="John Doe Home">John Doe</a>
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html" aria-current="page">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="container">
+        <h1 style="text-align: center; margin-bottom: 3rem;">My Projects</h1>
+        
+        <div class="grid">
+            <article class="card" id="project-1">
+                <h2 class="card-title">Accessible Component Library</h2>
+                <p class="card-desc">A lightweight UI component library built from scratch using pure HTML and CSS. The primary focus is on strict WCAG 2.1 compliance, ensuring proper contrast ratios, ARIA attributes, and flawless keyboard navigation across all interactive elements.</p>
+                <ul class="tags" aria-label="Technologies used">
+                    <li class="tag">HTML5</li>
+                    <li class="tag">CSS3</li>
+                    <li class="tag">a11y</li>
+                </ul>
+            </article>
+
+            <article class="card" id="project-2">
+                <h2 class="card-title">E-Commerce Dashboard</h2>
+                <p class="card-desc">A responsive administrative dashboard designed for e-commerce platforms. Features highly semantic markup for data tables, form controls with explicitly associated labels, and a color palette tested for color-blindness accessibility.</p>
+                <ul class="tags" aria-label="Technologies used">
+                    <li class="tag">HTML5</li>
+                    <li class="tag">CSS Grid</li>
+                    <li class="tag">JavaScript</li>
+                </ul>
+            </article>
+
+            <article class="card" id="project-3">
+                <h2 class="card-title">Local Coffee Shop Website</h2>
+                <p class="card-desc">A promotional website for a local business. Optimized for local SEO with structured data markup. Includes a fully accessible, keyboard-navigable menu and a contact form with built-in validation and error messaging.</p>
+                <ul class="tags" aria-label="Technologies used">
+                    <li class="tag">Semantic HTML</li>
+                    <li class="tag">CSS Flexbox</li>
+                    <li class="tag">SEO</li>
+                </ul>
+            </article>
+
+            <article class="card" id="project-4">
+                <h2 class="card-title">Weather Application</h2>
+                <p class="card-desc">A straightforward weather checking tool that utilizes a public API. Designed with a mobile-first approach, ensuring the interface is usable on small screens. Implements ARIA live regions to announce weather updates to screen reader users.</p>
+                <ul class="tags" aria-label="Technologies used">
+                    <li class="tag">JavaScript (Fetch)</li>
+                    <li class="tag">HTML5</li>
+                    <li class="tag">CSS Variables</li>
+                </ul>
+            </article>
+
+            <article class="card" id="project-5">
+                <h2 class="card-title">Task Management App</h2>
+                <p class="card-desc">A client-side task manager focused on productivity. Users can add, edit, and remove tasks using entirely keyboard-driven interactions. Focus management is handled carefully to ensure a logical tab order when modals are open.</p>
+                <ul class="tags" aria-label="Technologies used">
+                    <li class="tag">Vanilla JS</li>
+                    <li class="tag">DOM Manipulation</li>
+                    <li class="tag">Focus Management</li>
+                </ul>
+            </article>
+
+            <article class="card" id="project-6">
+                <h2 class="card-title">Personal Blog Template</h2>
+                <p class="card-desc">A clean, reading-focused blog template. Emphasizes typography readability with carefully calculated line heights and line lengths. Uses semantic tags like <code>&lt;article&gt;</code>, <code>&lt;time&gt;</code>, and <code>&lt;aside&gt;</code> to provide rich structure for search engines.</p>
+                <ul class="tags" aria-label="Technologies used">
+                    <li class="tag">HTML5</li>
+                    <li class="tag">CSS Typography</li>
+                    <li class="tag">Microdata</li>
+                </ul>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav aria-label="Social Media Links">
+                <ul class="social-links">
+                    <li><a href="https://github.com/vedant-211" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">GitHub</a></li>
+                    <li><a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">LinkedIn</a></li>
+                </ul>
+            </nav>
+            <p>&copy; 2026 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

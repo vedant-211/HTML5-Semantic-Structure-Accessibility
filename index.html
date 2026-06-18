@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe | Software Engineer & Web Developer</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of John Doe, a passionate Software Engineer and Web Developer specializing in accessible, performant, and semantic web applications.">
+    <meta name="keywords" content="John Doe, Software Engineer, Web Developer, Portfolio, HTML5, CSS, Accessibility, Frontend Developer">
+    <meta name="author" content="John Doe">
+    <link rel="canonical" href="https://vedant-211.github.io/HTML5-Semantic-Structure-Accessibility/index.html">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="John Doe | Software Engineer Portfolio">
+    <meta property="og:description" content="Explore the portfolio of John Doe, featuring projects built with modern web technologies, focusing on accessibility and performance.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vedant-211.github.io/HTML5-Semantic-Structure-Accessibility/index.html">
+    <meta property="og:image" content="https://vedant-211.github.io/HTML5-Semantic-Structure-Accessibility/assets/og-image.jpg">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Preconnect to Google Fonts for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo" aria-label="John Doe Home">John Doe</a>
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="container">
+        <section class="hero" aria-labelledby="hero-heading">
+            <h1 id="hero-heading">Hi, I'm John Doe</h1>
+            <p>A passionate Web Developer dedicated to building accessible, inclusive, and high-performance digital experiences.</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="projects.html" class="btn">View My Work</a>
+                <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </section>
+
+        <section aria-labelledby="skills-heading">
+            <h2 id="skills-heading">Core Competencies</h2>
+            <p>I specialize in modern frontend technologies with a strong emphasis on semantic structure and web accessibility (WCAG 2.1).</p>
+            <ul class="tags" aria-label="List of core skills">
+                <li class="tag">Semantic HTML5</li>
+                <li class="tag">Advanced CSS3</li>
+                <li class="tag">Web Accessibility (a11y)</li>
+                <li class="tag">Responsive Design</li>
+                <li class="tag">JavaScript (ES6+)</li>
+                <li class="tag">SEO Optimization</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="featured-heading">
+            <h2 id="featured-heading">Featured Projects</h2>
+            <div class="grid">
+                <article class="card">
+                    <h3 class="card-title">Accessible Component Library</h3>
+                    <p class="card-desc">A lightweight UI component library built with pure HTML/CSS emphasizing strict WCAG compliance and keyboard navigation.</p>
+                    <a href="projects.html#project-1" aria-label="Read more about Accessible Component Library">View Details <span aria-hidden="true">&rarr;</span></a>
+                </article>
+                <article class="card">
+                    <h3 class="card-title">E-Commerce Dashboard</h3>
+                    <p class="card-desc">A responsive admin dashboard for monitoring sales metrics, featuring high-contrast data visualizations and semantic markup.</p>
+                    <a href="projects.html#project-2" aria-label="Read more about E-Commerce Dashboard">View Details <span aria-hidden="true">&rarr;</span></a>
+                </article>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="projects.html" class="btn btn-secondary">See All Projects</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav aria-label="Social Media Links">
+                <ul class="social-links">
+                    <li><a href="https://github.com/vedant-211" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">GitHub</a></li>
+                    <li><a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">LinkedIn</a></li>
+                </ul>
+            </nav>
+            <p>&copy; 2026 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

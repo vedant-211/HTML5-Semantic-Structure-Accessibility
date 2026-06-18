@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | John Doe Portfolio</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn more about John Doe, a Software Engineer dedicated to writing semantic, accessible HTML5 and modern CSS. Discover my background, education, and career goals.">
+    <meta name="keywords" content="About John Doe, Software Engineer Background, Web Developer Education, Frontend Skills">
+    <meta name="author" content="John Doe">
+    <link rel="canonical" href="https://vedant-211.github.io/HTML5-Semantic-Structure-Accessibility/about.html">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="About John Doe">
+    <meta property="og:description" content="Learn about my background, skills, and career journey in web development.">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://vedant-211.github.io/HTML5-Semantic-Structure-Accessibility/about.html">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo" aria-label="John Doe Home">John Doe</a>
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" aria-current="page">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="container">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <h1 style="text-align: center; margin-bottom: 2rem;">About Me</h1>
+            
+            <section aria-labelledby="bio-heading">
+                <h2 id="bio-heading">Biography</h2>
+                <p>Hello! I'm John Doe, a dedicated Software Engineer with a passion for crafting robust and accessible web applications. I believe that the web should be usable by everyone, regardless of their hardware, software, language, location, or ability.</p>
+                <p>My journey in web development started with a deep curiosity for how websites work behind the scenes. Over the years, I've honed my skills in semantic HTML5, modern CSS, and JavaScript, focusing on creating pixel-perfect, responsive layouts that perform exceptionally well across all devices.</p>
+            </section>
+
+            <section aria-labelledby="education-heading">
+                <h2 id="education-heading">Education</h2>
+                <ul class="info-list">
+                    <li class="info-item">
+                        <h3>Bachelor of Science in Computer Science</h3>
+                        <p class="info-meta">University of Technology &bull; Graduated May 2023</p>
+                        <p>Focus on software engineering principles, web architectures, and human-computer interaction.</p>
+                    </li>
+                    <li class="info-item">
+                        <h3>Web Accessibility Specialist Certification</h3>
+                        <p class="info-meta">A11y Institute &bull; 2024</p>
+                        <p>Comprehensive training on WCAG 2.1 guidelines, assistive technologies, and inclusive design practices.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section aria-labelledby="skills-detail-heading">
+                <h2 id="skills-detail-heading">Comprehensive Skills</h2>
+                <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+                    <div>
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>Semantic HTML5</li>
+                            <li>CSS3 / Flexbox / Grid</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Tools & Testing</h3>
+                        <ul>
+                            <li>Git & GitHub</li>
+                            <li>Lighthouse Audits</li>
+                            <li>Screen Readers (NVDA, VoiceOver)</li>
+                            <li>W3C Validators</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Best Practices</h3>
+                        <ul>
+                            <li>WCAG 2.1 AA/AAA</li>
+                            <li>Mobile-First Approach</li>
+                            <li>Technical SEO</li>
+                            <li>Performance Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section aria-labelledby="goals-heading">
+                <h2 id="goals-heading">Career Goals</h2>
+                <p>My primary goal is to contribute to projects that prioritize user experience and accessibility from the ground up. I aspire to become an Accessibility Advocate within a forward-thinking tech company, helping to educate other developers and shape internal standards that ensure no user is left behind.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav aria-label="Social Media Links">
+                <ul class="social-links">
+                    <li><a href="https://github.com/vedant-211" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">GitHub</a></li>
+                    <li><a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">LinkedIn</a></li>
+                </ul>
+            </nav>
+            <p>&copy; 2026 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
